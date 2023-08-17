@@ -1,1 +1,27 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    width: 400px;
+    height: 180px;
+    padding: 1rem;
+    background-color:#73FE00;
+}
+.child{
+    height: 100px;
+    width: 100%;
+    background-color:#CA5C1A;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.3rem;
+    justify-content: space-around;
+}
+.child input{
+    width: 40%;
+    height: 25px;
+    padding:0 0.5rem ;
+}
+p{
+    margin-top: 1rem;
+}
