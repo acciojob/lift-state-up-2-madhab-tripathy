@@ -5,7 +5,7 @@ const Child = ({setInputValueFn})=>{
         <div className="child">
             <h2>Child Component</h2>
 
-            <input onChange={(e)=>setInputValueFn(e.target.value)}/>
+            <input type="text" onChange={(e)=>setInputValueFn(e.target.value)}/>
         </div>
     )
 }
